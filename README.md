@@ -1,3 +1,7 @@
+## Instrukcja DongleSense PDF
+
+Aktualne instrukcje: [PL](public/assets/donglesense-guide-pl.pdf) i [EN](public/assets/donglesense-guide-en.pdf). Dostępne również w zakładce Instrukcja. Generator: `scripts/generate-donglesense-guide.py` (ReportLab i Arial). Pliki `guide-pl.pdf` / `guide-en.pdf` oraz wcześniejsza dokumentacja odnoszą się do profilu awalol.
+
 # DualSense Wireless Adapter Configurator
 
 ## Aktualizacja DS5 Bridge 1.7.1 — 22.10.2026

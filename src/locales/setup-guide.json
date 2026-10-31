@@ -1,60 +1,94 @@
 {
   "pl": {
-    "title": "Pierwsze parowanie i przycisk adaptera",
+    "title": "Pierwsze uruchomienie",
     "sections": [
       [
-        "1. Podłącz gotowy adapter",
-        "Podłącz adapter do USB komputera bez trzymania BOOTSEL. Adapter ma już firmware, więc nie wgrywaj ponownie pliku UF2. Pad łączy się bezprzewodowo z adapterem, a adapter przewodowo z komputerem."
+        "Ważne: nie wciskaj przycisku podczas podłączania",
+        "Podłączaj adapter do komputera z puszczonym przyciskiem. Wciśnięty przycisk uruchamia tryb serwisowy zamiast zwykłego działania. Samo wejście w ten tryb nie usuwa oprogramowania, ale wgranie niewłaściwego pliku może je zastąpić i sprawić, że adapter przestanie działać poprawnie. Jeśli komputer pokaże adapter jako dysk, niczego na niego nie kopiuj. Odłącz go i podłącz ponownie bez wciskania przycisku."
       ],
       [
-        "2. Otwórz parowanie na adapterze",
-        "Gdy żaden pad nie jest połączony, krótko naciśnij BOOTSEL jeden raz i odczekaj około sekundy. Adapter otworzy okno parowania."
+        "1. Podłącz adapter",
+        "Włóż adapter do portu USB komputera. Jest już gotowy do użycia - nie trzeba niczego na niego wgrywać. Pad będzie łączyć się bezprzewodowo z adapterem."
       ],
       [
-        "3. Włącz parowanie pada",
-        "Przytrzymaj jednocześnie Create i PS, aż podświetlenie zacznie szybko migać na niebiesko. Zaczekaj na połączenie z adapterem. Nie dodawaj pada w ustawieniach Bluetooth Windows. Następnie otwórz DongleSense i kliknij „Połącz DS5 Bridge”."
+        "2. Naciśnij przycisk adaptera",
+        "Gdy pad nie jest połączony, krótko naciśnij przycisk na adapterze jeden raz. Puść go i odczekaj około sekundy. Adapter jest teraz gotowy do połączenia z padem."
       ],
       [
-        "BOOTSEL: jedno lub dwa naciśnięcia",
-        "Jedno krótkie naciśnięcie: bez połączonego pada otwiera parowanie; z połączonym padem rozłącza go, zachowując zapisane parowanie. Dwa krótkie naciśnięcia: zwykły restart adaptera. Gest jednego lub dwóch naciśnięć wykonuje się po około sekundzie oczekiwania na kolejne naciśnięcie."
+        "3. Połącz pada",
+        "Przytrzymaj razem przycisk z logo PlayStation i mały przycisk Create po lewej stronie panelu dotykowego. Puść, gdy podświetlenie zacznie szybko migać na niebiesko. Zaczekaj na połączenie. Pada nie trzeba dodawać w ustawieniach Bluetooth komputera."
       ],
       [
-        "BOOTSEL: trzy naciśnięcia lub przytrzymanie",
-        "Trzy krótkie naciśnięcia: restart do trybu wgrywania firmware, w którym adapter pojawia się jako dysk USB. Przytrzymanie przez około 1,5 sekundy: usuwa wszystkie zapisane parowania, rozłącza aktualnego pada i otwiera nowe okno parowania. Używaj przytrzymania tylko wtedy, gdy chcesz zapomnieć zapisane pady."
-      ],
-      [
-        "Przycisk podczas podłączania USB",
-        "Trzymanie BOOTSEL przy podłączaniu odłączonego adaptera uruchamia tryb wgrywania firmware. Nie jest to zwykłe parowanie. Do codziennego używania i pierwszego parowania gotowego adaptera podłącz USB bez trzymania przycisku."
+        "4. Otwórz ustawienia",
+        "Otwórz stronę DongleSense w Chrome lub Edge. Kliknij „Połącz DS5 Bridge”, wybierz adapter z listy i zatwierdź. Sprawdź, czy strona pokazuje połączonego pada."
       ]
-    ]
+    ],
+    "buttons": {
+      "title": "Przycisk adaptera",
+      "sections": [
+        [
+          "Jedno krótkie naciśnięcie",
+          "Jeśli żaden pad nie jest połączony, adapter zaczyna czekać na nowego pada. Jeśli pad jest połączony, zostanie rozłączony. Adapter nadal go pamięta. Po naciśnięciu odczekaj około sekundy."
+        ],
+        [
+          "Dwa krótkie naciśnięcia",
+          "Wyłączają i ponownie uruchamiają adapter. Odczekaj około sekundy na wykonanie tej czynności."
+        ],
+        [
+          "Trzy krótkie naciśnięcia",
+          "Włączają tryb serwisowy. Nie jest potrzebny do grania ani zmiany ustawień. Jeśli uruchomisz go przypadkiem, niczego nie kopiuj na adapter; odłącz go i podłącz ponownie z puszczonym przyciskiem."
+        ],
+        [
+          "Przytrzymanie przez około 1,5 sekundy",
+          "Uwaga: adapter zapomni wszystkie wcześniej połączone pady i rozłączy aktualnego pada. Potem będzie gotowy do połączenia od nowa. Użyj tego tylko wtedy, gdy chcesz usunąć zapamiętane pady, a następnie wykonaj kroki z pierwszej strony."
+        ]
+      ]
+    }
   },
   "en": {
-    "title": "First pairing and the adapter button",
+    "title": "Getting started",
     "sections": [
       [
-        "1. Connect the prepared adapter",
-        "Plug the adapter into a computer USB port without holding BOOTSEL. Your adapter already has firmware, so do not flash the UF2 again. The controller connects wirelessly to the adapter; the adapter connects to the computer over USB."
+        "Important: do not hold the button while plugging in",
+        "Plug the adapter into your computer with its button released. Holding the button starts service mode instead of normal operation. Entering this mode does not erase the software, but copying an unsuitable file onto the adapter can replace it and stop the adapter working properly. If it appears as a drive, do not copy anything to it. Unplug it, then plug it back in without pressing the button."
       ],
       [
-        "2. Open pairing on the adapter",
-        "With no controller connected, briefly press BOOTSEL once and wait about one second. The adapter opens its pairing window."
+        "1. Plug in the adapter",
+        "Plug the adapter into a computer USB port. It is ready to use - you do not need to install anything on it. Your controller will connect wirelessly to the adapter."
       ],
       [
-        "3. Put the controller in pairing mode",
-        "Hold Create and PS together until the lightbar rapidly flashes blue. Wait for the controller to connect to the adapter. Do not add it in Windows Bluetooth settings. Then open DongleSense and click “Connect DS5 Bridge”."
+        "2. Press the adapter button",
+        "With no controller connected, briefly press the adapter button once. Release it and wait about one second. The adapter is now ready to connect to your controller."
       ],
       [
-        "BOOTSEL: one or two presses",
-        "One brief press opens pairing when no controller is connected, or disconnects a connected controller while keeping its saved pairing. Two brief presses reboot the adapter normally. Single- and double-press gestures take effect after about one second while the adapter waits for another press."
+        "3. Connect your controller",
+        "Hold the PlayStation logo button and the small Create button to the left of the touchpad together. Release them when the light rapidly flashes blue. Wait for the connection. Do not add the controller in your computer’s Bluetooth settings."
       ],
       [
-        "BOOTSEL: three presses or a hold",
-        "Three brief presses reboot into firmware flashing mode, where the adapter appears as a USB drive. Holding for about 1.5 seconds deletes all saved controller pairings, disconnects the current controller and opens a fresh pairing window. Use the hold gesture only when you intend to forget saved controllers."
-      ],
-      [
-        "Holding the button while plugging in",
-        "Holding BOOTSEL while plugging an unplugged adapter into USB starts firmware flashing mode, not normal pairing. For everyday use and first pairing of a prepared adapter, plug it in without holding the button."
+        "4. Open the settings",
+        "Open DongleSense in Chrome or Edge. Click “Connect DS5 Bridge”, select the adapter from the list and confirm. Check that the page shows your controller as connected."
       ]
-    ]
+    ],
+    "buttons": {
+      "title": "The adapter button",
+      "sections": [
+        [
+          "One short press",
+          "If no controller is connected, the adapter starts waiting for a new controller. If one is connected, it disconnects but remains remembered. Wait about one second after pressing."
+        ],
+        [
+          "Two short presses",
+          "Restart the adapter. Wait about one second for this to happen."
+        ],
+        [
+          "Three short presses",
+          "Start service mode. You do not need this to play or change settings. If you start it by accident, do not copy anything onto the adapter; unplug it and plug it back in with the button released."
+        ],
+        [
+          "Hold for about 1.5 seconds",
+          "Warning: the adapter forgets all remembered controllers and disconnects the current one. It then becomes ready for a new connection. Only use this when you want to forget saved controllers, then follow the steps on the first page."
+        ]
+      ]
+    }
   }
 }

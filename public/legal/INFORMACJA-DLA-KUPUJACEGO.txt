@@ -1,0 +1,19 @@
+DONGLESENSE - INFORMACJA O OPROGRAMOWANIU I OFERTA ŹRÓDEŁ
+
+Adapter zawiera oprogramowanie DS5 Bridge 1.7.1 autorstwa projektu SundayMoments, oparte na DS5Dongle autorstwa awalol, oraz biblioteki innych autorów. Sprzedawca nie przypisuje sobie autorstwa tego oprogramowania. Oprogramowanie adaptera jest dostarczane bez zmian.
+
+DS5 Bridge jest udostępniany na GNU Affero General Public License w wersji 3 (AGPL-3.0-only). Zależności zachowują własne licencje. Pełne teksty licencji, oznaczenia autorów, źródła wraz z zależnościami i instrukcja budowania oraz instalowania własnej wersji są dostępne bez opłat:
+
+https://hellohvbert.github.io/donglesense/legal/
+
+Sprzedawca tego adaptera zobowiązuje się zapewniać każdej osobie posiadającej egzemplarz tego oprogramowania bezpłatny dostęp przez sieć do odpowiadającego mu kodu źródłowego. Oferta obowiązuje przez co najmniej trzy lata od dostarczenia danego egzemplarza oraz przez cały dłuższy okres oferowania części zamiennych lub wsparcia dla tego modelu.
+
+W razie niedostępności powyższego adresu należy skontaktować się ze sprzedawcą poprzez wiadomość na platformie, na której kupiono urządzenie, i podać nazwę DongleSense oraz wersję 1.7.1. Sprzedawca udostępni bezpłatny zastępczy adres pobierania. Oferta jest wystawiana przez sprzedawcę wskazanego w zamówieniu lub dokumencie sprzedaży; nie przenosi obowiązku utrzymania dostępu na autora oryginalnego projektu.
+
+Użytkownik może korzystać z praw do kopiowania, modyfikacji i redystrybucji wynikających z dołączonych licencji. Nie ograniczamy tych praw dodatkowymi warunkami. Informacja nie wyłącza ani nie ogranicza ustawowych praw kupującego wobec sprzedawcy urządzenia.
+
+Wersja pliku oprogramowania: DS5-Bridge-Firmware-v1.7.1.uf2
+SHA-256: 610cc23a210c26670992c6b8abc66e3de1fd6bf1efe60df81959ab4000375084
+Źródła projektu: commit 5ee08e0984085c99eac5afe14c05f572b6e9dc59.
+
+Niezależny produkt. DualSense i PlayStation są znakami ich właścicieli. Brak deklaracji autoryzacji lub współpracy z Sony.

@@ -1,0 +1,56 @@
+{
+  "firmware": "1.7.1",
+  "firmware_sha256": "610cc23a210c26670992c6b8abc66e3de1fd6bf1efe60df81959ab4000375084",
+  "repositories": [
+    {
+      "directory": "DS5_Bridge",
+      "repository": "SundayMoments/DS5_Bridge",
+      "commit": "5ee08e0984085c99eac5afe14c05f572b6e9dc59"
+    },
+    {
+      "directory": "DS5_Bridge/lib/WDL",
+      "repository": "justinfrankel/WDL",
+      "commit": "afc0f78dca4a1743a948839ac75f4d7059d739c3"
+    },
+    {
+      "directory": "DS5_Bridge/lib/opus",
+      "repository": "xiph/opus",
+      "commit": "2d862ea14b233e5a3f3afaf74d96050691af3cd5"
+    },
+    {
+      "directory": "pico-sdk",
+      "repository": "raspberrypi/pico-sdk",
+      "commit": "98a542c1a62fb549ffb5d66a3e5892b06276b670"
+    },
+    {
+      "directory": "pico-sdk/lib/btstack",
+      "repository": "bluekitchen/btstack",
+      "commit": "075a0780f0fad7ff67d58ac19f46e8953656a752"
+    },
+    {
+      "directory": "pico-sdk/lib/cyw43-driver",
+      "repository": "georgerobotics/cyw43-driver",
+      "commit": "055d64274b014dd7b1c2fc94d26e8a18face7124"
+    },
+    {
+      "directory": "pico-sdk/lib/lwip",
+      "repository": "lwip-tcpip/lwip",
+      "commit": "77dcd25a72509eb83f72b033d219b1d40cd8eb95"
+    },
+    {
+      "directory": "pico-sdk/lib/mbedtls",
+      "repository": "Mbed-TLS/mbedtls",
+      "commit": "0bebf8b8c7f07abe3571ded48a11aa907a1ffb20"
+    },
+    {
+      "directory": "pico-sdk/lib/mbedtls/framework",
+      "repository": "Mbed-TLS/mbedtls-framework",
+      "commit": "dff9da04438d712f7647fd995bc90fadd0c0e2ce"
+    },
+    {
+      "directory": "pico-sdk/lib/tinyusb",
+      "repository": "hathach/tinyusb",
+      "commit": "2d56dc533e45e4e91b15e93fdab5e22e964f328d"
+    }
+  ]
+}

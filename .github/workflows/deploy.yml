@@ -22,6 +22,15 @@ jobs:
       - run: npm ci
       - run: npm test
       - run: npm run build
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - uses: actions/cache@v4
+        with:
+          path: .cache/firmware-source
+          key: firmware-source-171-${{ hashFiles('docs/firmware-source-lock.json') }}
+      - name: Package pinned firmware source and licenses
+        run: python scripts/package-firmware-source.py
       - uses: actions/upload-pages-artifact@v4
         if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
         with:

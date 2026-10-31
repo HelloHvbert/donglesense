@@ -1,0 +1,9 @@
+DS5 Bridge source code:
+https://github.com/SundayMoments/DS5_Bridge
+
+This binary release corresponds to commit: 5ee08e0984085c99eac5afe14c05f572b6e9dc59
+Working tree dirty at build time: no
+
+License:
+GNU Affero General Public License v3.0 only
+See LICENSE and NOTICE.

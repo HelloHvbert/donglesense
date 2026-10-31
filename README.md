@@ -1,3 +1,7 @@
+## Licencje i źródła oprogramowania adaptera
+
+Sekcja online: https://hellohvbert.github.io/donglesense/legal/. Pakiet dystrybucyjny i obowiązki sprzedawcy: [firmware-distribution.md](docs/firmware-distribution.md). Po buildzie uruchom `python scripts/package-firmware-source.py`, aby przygotować archiwum odpowiadających źródeł w dist/legal. CI wykonuje to automatycznie.
+
 ## Instrukcja DongleSense PDF
 
 Aktualne instrukcje: [PL](public/assets/donglesense-guide-pl.pdf) i [EN](public/assets/donglesense-guide-en.pdf). Dostępne również w zakładce Instrukcja. Generator: `scripts/generate-donglesense-guide.py` (ReportLab i Arial). Pliki `guide-pl.pdf` / `guide-en.pdf` oraz wcześniejsza dokumentacja odnoszą się do profilu awalol.

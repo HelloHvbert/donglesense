@@ -1,0 +1,14 @@
+{
+  "createdAt": "2026-08-30T11:49:05.1393040Z",
+  "firmwareVersion": "1.7.1",
+  "companionVersion": "1.7.1",
+  "artifacts": [
+    "DS5-Bridge-Firmware-v1.7.1.uf2",
+    "DS5-Bridge-Firmware-Waveshare-v1.7.1.uf2",
+    "DS5-Bridge-Companion-Setup-v1.7.1.exe",
+    "DS5-Bridge-Companion-Portable-v1.7.1-win32-x64.zip"
+  ],
+  "sourceUrl": "https://github.com/SundayMoments/DS5_Bridge",
+  "sourceCommit": "5ee08e0984085c99eac5afe14c05f572b6e9dc59",
+  "dirty": false
+}

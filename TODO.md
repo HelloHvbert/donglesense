@@ -1,6 +1,6 @@
 # DongleSense — TODO
 
-Aktualizacja: 22.10.2026. Domyślny panel: DS5 Bridge 1.7.1 przez WebUSB. Starszy profil awalol pozostaje osobnym trybem. Firmware adaptera pozostaje bez zmian.
+Aktualizacja: 31.10.2026. Domyślny panel: DS5 Bridge 1.7.1 przez WebUSB. Starszy profil awalol pozostaje osobnym trybem. Firmware adaptera pozostaje bez zmian.
 
 ## Zakończone
 
@@ -27,8 +27,8 @@ Aktualizacja: 22.10.2026. Domyślny panel: DS5 Bridge 1.7.1 przez WebUSB. Starsz
 - [x] Lokalny profil: odtworzenie po odłączeniu zasilania — użytkownik potwierdził powrót profilu i zgodny kolor pada.
 - [ ] Pełna kontrola klawiaturą, PL/EN, mały ekran, ograniczenie animacji i fokus. W tej sesji brak ponownego odbioru wizualnego — dostęp automatyzacji przeglądarki zablokowany.
 - [x] Aktualne instrukcje DongleSense PL/EN w PDF, sprawdzone wizualnie i podlinkowane w zakładce Instrukcja (31.10.2026). Starsze PDF pozostają wyłącznie dla profilu awalol.
-- [ ] Pełne notices/licencje dla dokładnego firmware dystrybuowanego z urządzeniem.
-- [ ] Uruchomienie workflow na GitHub i publikacja po zgodzie użytkownika.
+- [x] Pakiet notices/licencji i źródeł dla oryginalnego sprzętu z firmware 1.7.1; oferta źródeł dla kupującego i obowiązki sprzedawcy: docs/firmware-distribution.md. Utrzymanie dostępu oraz dołączanie wydruku pozostaje obowiązkiem sprzedawcy.
+- [x] Workflow GitHub i publikacja Pages zakończone sukcesem; użytkownik potwierdził działanie strony.
 - [ ] Test wdrożenia w podkatalogu, docelowy URL i drukowany QR.
 
 Checklista: [docs/manual-testing.md](docs/manual-testing.md). Nie zaznaczamy testów mock jako odbioru fizycznego sprzętu. Ustawienia DS5 Bridge dotyczą sesji; profil lokalny jest przechowywany w przeglądarce, nie we flash adaptera.
@@ -38,3 +38,5 @@ Checklista: [docs/manual-testing.md](docs/manual-testing.md). Nie zaznaczamy tes
 - [x] Zwykłe odłączenie i ponowne połączenie adaptera — potwierdzone przez użytkownika; test przerwania trwającego odczytu/zapisu pozostaje otwarty.
 
 
+
+Aktualny odbiór przed aukcją: [acceptance-2026-10-31.md](docs/acceptance-2026-10-31.md). Testy i build ponowione: 35/35, poprawny build. Odbiór sprzętowy w toku.

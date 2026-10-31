@@ -20,7 +20,7 @@
       ],
       [
         "4. Otwórz ustawienia",
-        "Otwórz stronę DongleSense w Chrome lub Edge. Kliknij „Połącz DS5 Bridge”, wybierz adapter z listy i zatwierdź. Sprawdź, czy strona pokazuje połączonego pada."
+        "Otwórz stronę DongleSense w Chrome lub Edge. Kliknij „Połącz DS5 Adapter”, wybierz adapter z listy i zatwierdź. Sprawdź, czy strona pokazuje połączonego pada."
       ]
     ],
     "buttons": {
@@ -66,7 +66,7 @@
       ],
       [
         "4. Open the settings",
-        "Open DongleSense in Chrome or Edge. Click “Connect DS5 Bridge”, select the adapter from the list and confirm. Check that the page shows your controller as connected."
+        "Open DongleSense in Chrome or Edge. Click “Connect DS5 Adapter”, select the adapter from the list and confirm. Check that the page shows your controller as connected."
       ]
     ],
     "buttons": {

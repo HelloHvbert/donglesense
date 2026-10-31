@@ -1,0 +1,54 @@
+{
+  "pl": [
+    [
+      "Pierwsze podłączenie",
+      "Podłącz adapter bezpośrednio do USB. Przytrzymaj PS + Create na kontrolerze, aż podświetlenie zacznie migać. Jeżeli wyszukiwanie się zakończyło, kliknij przycisk adaptera raz, gdy żaden kontroler nie jest połączony. Następnie kliknij Połącz adapter w panelu."
+    ],
+    [
+      "Kolejne połączenie",
+      "Naciśnij PS na wcześniej sparowanym kontrolerze. Jeżeli parowanie zostało usunięte, powtórz PS + Create. Adapter może udostępnić interfejs gamepada USB dopiero po połączeniu kontrolera."
+    ],
+    [
+      "Przycisk adaptera",
+      "Jeden klik: rozłączenie bieżącego kontrolera lub rozpoczęcie wyszukiwania, gdy nic nie jest połączone. Dwa kliknięcia: restart firmware adaptera. Trzy kliknięcia: tryb wgrywania firmware, który przerywa zwykłe działanie. Przytrzymanie około 1,5 sekundy: rozłączenie i usunięcie wszystkich parowań. To operacja destrukcyjna. Sześć mignięć LED potwierdza usunięcie. Sekwencja kliknięć jest rozpoznawana po krótkiej przerwie (około 500 ms pomiędzy kliknięciami)."
+    ],
+    [
+      "Sygnalizacja LED",
+      "Dioda wskazuje aktywność połączenia. Przy połączonym kontrolerze zwykle świeci stale, o ile jej nie wyłączono. Przy raportowanym poziomie baterii do 10% podczas rozładowania miga z częstotliwością 1 Hz, także mimo wyłączenia LED (chyba że build firmware nie zawiera tej funkcji). Podczas wyszukiwania dioda przełącza stan co około 200 ms. Po restarcie wywołanym watchdogiem miga trzy razy (w buildzie bez ENABLE_SERIAL)."
+    ],
+    [
+      "Zapis ustawień",
+      "Zmień wartości i kliknij Zapisz zmiany. Panel sprawdza bieżącą konfigurację i odczytuje ją po wysłaniu poleceń. Firmware nie zwraca wyniku zapisu flash. Aby sprawdzić trwałość, odłącz fizycznie zasilanie, podłącz ten sam adapter i użyj Porównaj po odłączeniu zasilania. Samo ponowne zestawienie USB nie restartuje firmware."
+    ],
+    [
+      "Rozwiązywanie problemów",
+      "Użyj desktopowego Chrome lub Edge z WebHID przez HTTPS lub localhost. Jeśli nie ma urządzenia na liście, najpierw sparuj kontroler, zmień port USB i zamknij Steam, DSX lub inne narzędzia, które mogą zajmować urządzenie. Przy odmowie dostępu sprawdź uprawnienia witryny i ponów Połącz adapter. Nieznane firmware blokuje zapis. Głośnością zarządza również system. Przy problemach z wybudzaniem sprawdź obsługę USB wake w BIOS/UEFI i Windows; panel nie zmienia ustawień systemu."
+    ]
+  ],
+  "en": [
+    [
+      "First connection",
+      "Plug the adapter directly into USB. Hold PS + Create on the controller until its light flashes to pair. If discovery has stopped, click the adapter button once while no controller is connected. Then click Connect adapter in the panel."
+    ],
+    [
+      "Connect again",
+      "Press PS on a previously paired controller. If it was forgotten, repeat PS + Create pairing. The adapter may not expose its gamepad USB interface until a controller connects."
+    ],
+    [
+      "Adapter button",
+      "One click: disconnect the current controller, or start discovery when none is connected. Two clicks: restart the adapter firmware. Three clicks: enter firmware flashing mode; normal operation stops. Hold for about 1.5 seconds: disconnect and forget all pairings. This is destructive. Six LED flashes confirm clearing. Clicks are detected after a short pause (about 500 ms between clicks)."
+    ],
+    [
+      "LED signals",
+      "The LED indicates connection activity. With a connected controller it is normally on, unless disabled. Battery at or below the reported 10% level while discharging triggers a 1 Hz blink, even if the LED is disabled (unless the firmware build omits battery LED support). During discovery, the LED toggles about every 200 ms. After a watchdog restart, it flashes three times (in builds without ENABLE_SERIAL)."
+    ],
+    [
+      "Saving settings",
+      "Edit settings, then click Save changes. The panel checks current values and reads them back after sending the commands. Firmware does not return flash-write success. To verify persistence, physically unplug power and reconnect the same adapter, then use Compare after power cycle. USB reconnect alone does not restart firmware."
+    ],
+    [
+      "Troubleshooting",
+      "Use desktop Chrome or Edge with WebHID over HTTPS or localhost. If the adapter is missing, pair the controller first, try another USB port and close Steam, DSX or other tools that may hold the device. Denied access: review site permissions and retry using Connect adapter. Unknown firmware: writing is disabled. Audio volume is also managed by the operating system. For unreliable wake, check USB wake support in BIOS/UEFI and Windows; the panel does not modify system settings."
+    ]
+  ]
+}

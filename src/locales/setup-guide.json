@@ -1,0 +1,60 @@
+{
+  "pl": {
+    "title": "Pierwsze parowanie i przycisk Pico",
+    "sections": [
+      [
+        "1. Podłącz gotowy adapter",
+        "Podłącz Pico do USB komputera bez trzymania BOOTSEL. Adapter ma już firmware, więc nie wgrywaj ponownie pliku UF2. Pad łączy się bezprzewodowo z Pico, a Pico przewodowo z komputerem."
+      ],
+      [
+        "2. Otwórz parowanie na Pico",
+        "Gdy żaden pad nie jest połączony, krótko naciśnij BOOTSEL jeden raz i odczekaj około sekundy. Adapter otworzy okno parowania."
+      ],
+      [
+        "3. Włącz parowanie pada",
+        "Przytrzymaj jednocześnie Create i PS, aż podświetlenie zacznie szybko migać na niebiesko. Zaczekaj na połączenie z Pico. Nie dodawaj pada w ustawieniach Bluetooth Windows. Następnie otwórz DongleSense i kliknij „Połącz DS5 Bridge”."
+      ],
+      [
+        "BOOTSEL: jedno lub dwa naciśnięcia",
+        "Jedno krótkie naciśnięcie: bez połączonego pada otwiera parowanie; z połączonym padem rozłącza go, zachowując zapisane parowanie. Dwa krótkie naciśnięcia: zwykły restart Pico. Gest jednego lub dwóch naciśnięć wykonuje się po około sekundzie oczekiwania na kolejne naciśnięcie."
+      ],
+      [
+        "BOOTSEL: trzy naciśnięcia lub przytrzymanie",
+        "Trzy krótkie naciśnięcia: restart do trybu wgrywania firmware, w którym Pico pojawia się jako dysk USB. Przytrzymanie przez około 1,5 sekundy: usuwa wszystkie zapisane parowania, rozłącza aktualnego pada i otwiera nowe okno parowania. Używaj przytrzymania tylko wtedy, gdy chcesz zapomnieć zapisane pady."
+      ],
+      [
+        "Przycisk podczas podłączania USB",
+        "Trzymanie BOOTSEL przy podłączaniu odłączonego Pico uruchamia tryb wgrywania firmware. Nie jest to zwykłe parowanie. Do codziennego używania i pierwszego parowania gotowego adaptera podłącz USB bez trzymania przycisku."
+      ]
+    ]
+  },
+  "en": {
+    "title": "First pairing and the Pico button",
+    "sections": [
+      [
+        "1. Connect the prepared adapter",
+        "Plug the Pico into a computer USB port without holding BOOTSEL. Your adapter already has firmware, so do not flash the UF2 again. The controller connects wirelessly to the Pico; the Pico connects to the computer over USB."
+      ],
+      [
+        "2. Open pairing on the Pico",
+        "With no controller connected, briefly press BOOTSEL once and wait about one second. The adapter opens its pairing window."
+      ],
+      [
+        "3. Put the controller in pairing mode",
+        "Hold Create and PS together until the lightbar rapidly flashes blue. Wait for the controller to connect to the Pico. Do not add it in Windows Bluetooth settings. Then open DongleSense and click “Connect DS5 Bridge”."
+      ],
+      [
+        "BOOTSEL: one or two presses",
+        "One brief press opens pairing when no controller is connected, or disconnects a connected controller while keeping its saved pairing. Two brief presses reboot the Pico normally. Single- and double-press gestures take effect after about one second while the Pico waits for another press."
+      ],
+      [
+        "BOOTSEL: three presses or a hold",
+        "Three brief presses reboot into firmware flashing mode, where the Pico appears as a USB drive. Holding for about 1.5 seconds deletes all saved controller pairings, disconnects the current controller and opens a fresh pairing window. Use the hold gesture only when you intend to forget saved controllers."
+      ],
+      [
+        "Holding the button while plugging in",
+        "Holding BOOTSEL while plugging an unplugged Pico into USB starts firmware flashing mode, not normal pairing. For everyday use and first pairing of a prepared adapter, plug it in without holding the button."
+      ]
+    ]
+  }
+}

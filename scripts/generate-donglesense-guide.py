@@ -1,5 +1,6 @@
 """Build current DongleSense PDF guides; legacy guides remain separate."""
 from pathlib import Path
+import json
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, PageBreak
 from reportlab.lib.styles import ParagraphStyle
 from reportlab.lib.colors import HexColor
@@ -19,7 +20,7 @@ styles={
 content={
 'pl':[
 ('Pierwsze połączenie',[
-('1. Przygotuj adapter i pada','Podłącz adapter do USB komputera. Pad powinien być już sparowany z adapterem i łączyć się z nim bezprzewodowo. Panel nie służy do aktualizacji firmware ani parowania pada. Ta instrukcja dotyczy profilu DS5 Bridge; starsze instrukcje awalol nie mają tu zastosowania.'),
+('1. Przygotuj adapter i pada','Podłącz adapter do USB komputera. Po sparowaniu według poprzedniej strony pad łączy się z adapterem bezprzewodowo. Panel nie służy do aktualizacji firmware ani parowania pada. Ta instrukcja dotyczy profilu DS5 Bridge; starsze instrukcje awalol nie mają tu zastosowania.'),
 ('2. Otwórz panel','Użyj Chrome lub Edge na komputerze z obsługą WebUSB. Otwórz link poniżej. Zakończ aplikację DS5 Bridge i AudioHelper w zasobniku systemowym, a także rozłącz adapter w innych kartach konfiguratora.'),
 ('3. Połącz i odczytaj','Kliknij „Połącz DS5 Bridge”, wybierz adapter USB i zatwierdź. Pierwsze połączenie tylko odczytuje stan. Sprawdź komunikat powodzenia i stan kontrolera. Dane baterii oraz RSSI pochodzą z adaptera; nie są niezależnym pomiarem.'),
 ('4. Zastosuj ustawienia','Zmień wybraną wartość i kliknij „Zastosuj zmiany”. Samo przesuwanie suwaka lub wybór koloru zmienia tylko formularz. Panel sprawdza potwierdzenie adaptera i odczyt zwrotny. „Cofnij” przywraca formularz do ostatniego odczytu.'),
@@ -34,7 +35,7 @@ content={
 ])],
 'en':[
 ('First connection',[
-('1. Prepare the adapter and controller','Plug the adapter into a computer USB port. The controller should already be paired with the adapter and connect wirelessly. This panel does not pair controllers or update firmware. This guide covers the DS5 Bridge profile; older awalol guides do not apply.'),
+('1. Prepare the adapter and controller','Plug the adapter into a computer USB port. After pairing as described on the previous page, the controller connects to the adapter wirelessly. This panel does not pair controllers or update firmware. This guide covers the DS5 Bridge profile; older awalol guides do not apply.'),
 ('2. Open the panel','Use Chrome or Edge on a computer with WebUSB support. Open the link below. Exit DS5 Bridge and AudioHelper from the system tray, and disconnect the adapter in other configurator tabs.'),
 ('3. Connect and read','Click “Connect DS5 Bridge”, select the USB adapter and confirm. The initial connection only reads device state. Check the success message and controller status. Battery and RSSI values are reported by the adapter, not independently measured.'),
 ('4. Apply settings','Change a value and click “Apply changes”. Moving a slider or choosing a color only edits the form. The panel verifies the adapter acknowledgement and readback. “Discard” restores the form to the last reading.'),
@@ -48,7 +49,9 @@ content={
 ('Scope and beta status','Trigger Lab, remapping, custom chords, controller mode switching and system audio capture are not implemented. Firmware stays unchanged. Connection, color, classic rumble and profile restoration were checked on the user’s adapter; full audio, wake and cross-browser acceptance tests remain open.'),
 ])]
 }
+setup=json.loads((ROOT/'src/locales/setup-guide.json').read_text(encoding='utf-8'))
 for lang,pages in content.items():
+ pages.insert(0,(setup[lang]['title'],setup[lang]['sections']))
  def footer(c,doc):
   c.setStrokeColor(HexColor('#d9e2ef'));c.line(45,44,550,44)
   c.setFont('Guide',8);c.setFillColor(HexColor('#63748b'))

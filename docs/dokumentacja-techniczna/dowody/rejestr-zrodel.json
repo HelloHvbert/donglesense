@@ -1,0 +1,52 @@
+[
+  {
+    "file": "Pico-2-W-deklaracja-UE-producenta.pdf",
+    "url": "https://pip-assets.raspberrypi.com/categories/1090-approvals/documents/RP-007492-CF-2-rpi-pico2w%20EU%20Declaration%20of%20Conformity%20%28DoC%29.pdf",
+    "downloaded": "2026-10-31",
+    "sha256": "447b9a64f9cb538f24e6deaaf286e476d2b26955126fa8efed17370dab0cdbfb"
+  },
+  {
+    "file": "Pico-2-W-certyfikat-bezpieczenstwa-CB.pdf",
+    "url": "https://pip-assets.raspberrypi.com/categories/1090-approvals/documents/RP-007563-CF-1-rpi-pico2w%20Electrical%20Safety%20CB%20Certificate.pdf",
+    "downloaded": "2026-10-31",
+    "sha256": "8be109e7f0eb8d71b56c0d9b2f229abeb3507c359193bf44089678d377542c2b"
+  },
+  {
+    "file": "RED-2014-53-UE-tekst-skonsolidowany.pdf",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02014L0053-20260530",
+    "error": "Response is not PDF"
+  },
+  {
+    "file": "RED-cyber-2022-30.pdf",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R0030",
+    "error": "Response is not PDF"
+  },
+  {
+    "file": "RED-cyber-data-2023-2444.pdf",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32023R2444",
+    "error": "Response is not PDF"
+  },
+  {
+    "file": "RED-normy-cyber-2025-138.pdf",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32025D0138",
+    "error": "Response is not PDF"
+  },
+  {
+    "file": "Bambu-PLA-Basic-TDS.pdf",
+    "url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/Bambu_PLA_Basic_Technical_Data_Sheet.pdf",
+    "downloaded": "2026-10-31",
+    "sha256": "44c00d8398cba7fbdb8fdcd13886ab904f78826d9eefa531a95118b6891201b3"
+  },
+  {
+    "file": "Bambu-PLA-Basic-SDS.pdf",
+    "url": "https://store.bblcdn.com/s7/default/6e47ce4e48b54b20b3afd3be7539ac27/SDS20250724A00_Bambu_PLA_Basic.pdf",
+    "downloaded": "2026-10-31",
+    "sha256": "895a2a5f72f18176740873e8891edf9430637f46bfb44a7228398bac9ad6ffa8"
+  },
+  {
+    "file": "RED-Guide-2026-07-07.pdf",
+    "url": "https://single-market-economy.ec.europa.eu/document/download/a0c7e4c5-27db-4c59-9c43-a380ed21563f_en?filename=RED+Guide+-+version+07.07.2026+-+with+COVER.pdf",
+    "downloaded": "2026-10-31",
+    "sha256": "82d656ec51232f9ff5e80d02ee36700ed73c468161db5d49183119d29f4582bc"
+  }
+]

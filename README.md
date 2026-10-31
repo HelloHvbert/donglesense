@@ -1,3 +1,7 @@
+## Dokumentacja techniczna
+
+[Dokumentacja konstrukcji i oceny zgodności](docs/dokumentacja-techniczna/README.md): opis adaptera, materiały producentów, ocena wpływu zmian, plan weryfikacji i wzór deklaracji. Status: ocena zgodności w toku; deklaracja UE DongleSense nie została wystawiona.
+
 ## Licencje i źródła oprogramowania adaptera
 
 Sekcja online: https://hellohvbert.github.io/donglesense/legal/. Pakiet dystrybucyjny i obowiązki sprzedawcy: [firmware-distribution.md](docs/firmware-distribution.md). Po buildzie uruchom `python scripts/package-firmware-source.py`, aby przygotować archiwum odpowiadających źródeł w dist/legal. CI wykonuje to automatycznie.

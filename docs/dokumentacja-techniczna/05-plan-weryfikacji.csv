@@ -1,0 +1,11 @@
+﻿ID;Sprawdzenie;Zakres;Kryterium;Status
+T01;Identyfikacja egzemplarza;Zdjęcia, oznaczenia, BOM, hash oprogramowania, model obudowy;Zgodność ze zamrożoną konfiguracją;NIEWYKONANE
+T02;Dokumentacja płytki;DoC, CB i pełne raporty/warunki integracji;Zakres możliwego wykorzystania wyników ustalony;CZĘŚCIOWE - tylko DoC/CB
+T03;Ocena RF;Konfiguracja Bluetooth, kanały, moc, antena i obudowa;"Kryteria według dobranych norm; uzasadnienie pomiarów";NIEWYKONANE
+T04;Ocena EMC/ESD;Gotowy zestaw w reprezentatywnych trybach i połączeniach USB;Kryteria według dobranych norm;NIEWYKONANE
+T05;Temperatura/bezpieczeństwo;Normalna praca i przewidywalne stany uszkodzenia;"Kryteria ustalone przez oceniającego; zapis temperatur i źródeł energii";NIEWYKONANE
+T06;Mechanika obudowy;Mocowanie, zatrzaski, wtyk, ostre krawędzie i dostęp;Kryteria ustalone w ocenie ryzyka i właściwych normach;NIEWYKONANE
+T07;Materiał/RoHS;Partie i dokumenty wszystkich materiałów końcowego produktu;Wystarczające dowody dla finalnego BOM;NIEWYKONANE
+T08;Procedura RED;Zakres wymagań i zastosowanie aktualnych norm;Uzasadniony wybór II, III albo IV;NIE WYBRANO
+T09;Instrukcja i oznakowanie;Producent/adres, typ/partia, parametry i finalna deklaracja;Spójność z dowodami i wymaganiami;DO UZUPEŁNIENIA
+T10;Odbiór funkcjonalny;Sterowanie, dźwięk, wibracje i powrót po rozłączeniu;Wyniki użytkownika, niezastępujące badań zgodności;"POTWIERDZONE FUNKCJONALNIE; mikrofon niezaliczony"
